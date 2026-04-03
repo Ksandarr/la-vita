@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy La Vita to GitHub Pages
 
 on:
   # Trigger deployment on pushes to main branch
@@ -32,15 +32,12 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: la-vita/package-lock.json
 
     - name: Install dependencies
       run: npm ci
-      working-directory: ./la-vita
 
     - name: Build application
       run: npm run build
-      working-directory: ./la-vita
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
