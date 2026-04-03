@@ -44,7 +44,7 @@ const VillaShowcase = () => {
     {
       id: 4,
       name: "Coastal Elegance Villa",
-      location: "Amalfi Coast, Italy",
+      location: "Lozenets, Bulgaria",
       image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       price: "$950",
       period: "night",

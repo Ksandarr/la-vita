@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { LanguageContext } from './context'
-import { translations } from './translations'
+import { translations, interpolateTranslation } from './translationsNew'
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState('bg') // Default to Bulgarian
@@ -9,7 +9,7 @@ export const LanguageProvider = ({ children }) => {
     setLanguage(prev => prev === 'en' ? 'bg' : 'en')
   }
 
-  const t = (key) => {
+  const t = (key, variables = {}) => {
     const keys = key.split('.')
     let translation = translations[language]
 
@@ -21,7 +21,8 @@ export const LanguageProvider = ({ children }) => {
       }
     }
 
-    return translation || key
+    const result = translation || key
+    return interpolateTranslation(result, variables)
   }
 
   const value = {

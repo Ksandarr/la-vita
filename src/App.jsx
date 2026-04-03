@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { LanguageProvider } from './contexts/LanguageContext'
+import { DataProvider } from './contexts/DataContext'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import VillaDetails from './components/VillaDetails'
+import HousesOverview from './components/HousesOverview'
 import VillaGallery from './components/VillaGallery'
 import Features from './components/Features'
 import BookingSection from './components/BookingSection'
@@ -49,17 +50,19 @@ function App() {
 
   return (
     <LanguageProvider>
-      <div className="App">
-        <Header isScrolled={isScrolled} />
-        <main className="main-content">
-          <Hero />
-          <VillaDetails />
-          <VillaGallery />
-          <Features />
-          <BookingSection />
-        </main>
-        <Footer />
-      </div>
+      <DataProvider>
+        <div className="App">
+          <Header isScrolled={isScrolled} />
+          <main className="main-content">
+            <Hero />
+            <HousesOverview />
+            <VillaGallery />
+            <Features />
+            <BookingSection />
+          </main>
+          <Footer />
+        </div>
+      </DataProvider>
     </LanguageProvider>
   )
 }

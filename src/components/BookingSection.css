@@ -3,6 +3,62 @@
   background: var(--primary-white);
 }
 
+/* Villa Selection Styles */
+.villa-selection {
+  margin-bottom: 2rem;
+}
+
+.villa-select {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  font-size: 1rem;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  padding-right: 3rem;
+}
+
+.villa-select:focus {
+  border-color: #c8860d;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(200, 134, 13, 0.1);
+}
+
+.selected-villa-info {
+  margin-top: 0.5rem;
+}
+
+.selected-villa-info small {
+  color: #666;
+  font-style: italic;
+}
+
+.guest-limit {
+  color: #666;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.summary-header {
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.summary-header h4 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 .booking-content {
   display: grid;
   grid-template-columns: 1fr 1fr;

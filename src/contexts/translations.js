@@ -11,7 +11,7 @@ export const translations = {
     // Hero Section
     exclusiveVilla: 'Exclusive Villa Rental',
     villaName: 'Villa La Vita e Bella',
-    location: 'Amalfi Coast, Italy',
+    location: 'Lozenets, Bulgaria',
     heroDescription: 'An extraordinary luxury villa perched on the dramatic cliffs of the Amalfi Coast. Experience unparalleled Mediterranean elegance with breathtaking ocean views, private beach access, and world-class amenities.',
     bookYourStay: 'Book Your Stay',
     viewGallery: 'View Gallery',

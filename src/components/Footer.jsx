@@ -1,6 +1,10 @@
+import { useData } from '../contexts/useData'
+import { useLanguage } from '../contexts/useLanguage'
 import './Footer.css'
 
 const Footer = () => {
+  const { complex } = useData()
+  const { t } = useLanguage()
   return (
     <footer className="footer" id="contact">
       <div className="container">
@@ -8,12 +12,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="footer-column">
             <div className="footer-logo">
-              <h3>La Vita e Bella</h3>
-              <p className="footer-tagline">Luxury Villa Rentals</p>
+              <h3>{complex.name}</h3>
+              <p className="footer-tagline">{complex.tagline}</p>
             </div>
             <p className="footer-description">
-              Experience the finest luxury villa rentals in the world's most sought-after destinations.
-              Your perfect getaway awaits with unparalleled service and exceptional accommodations.
+              {t('footer.description', { complexName: complex.name })}
             </p>
             <div className="social-links">
               <a href="#" className="social-link" aria-label="Facebook">
@@ -168,7 +171,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="footer-bottom">
           <div className="footer-copyright">
-            <p>&copy; 2024 La Vita e Bella Luxury Villa Rentals. All rights reserved.</p>
+            <p>{t('footer.copyright', { complexName: complex.name })}</p>
           </div>
           <div className="footer-legal">
             <a href="#terms">Terms of Service</a>

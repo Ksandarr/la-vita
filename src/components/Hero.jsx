@@ -1,15 +1,17 @@
 import { useLanguage } from '../contexts/useLanguage'
+import { useData } from '../contexts/useData'
 import './Hero.css'
 
 const Hero = () => {
   const { t } = useLanguage()
+  const { complex, selectedHouse, totalComplexCapacity } = useData()
   return (
     <section className="hero" id="home">
       <div className="hero-background">
         <div className="hero-overlay"></div>
         <img
           src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80"
-          alt="Luxury villa with pool overlooking the ocean"
+          alt={`${complex.name} luxury villa complex overview`}
           className="hero-image"
         />
       </div>
@@ -18,10 +20,10 @@ const Hero = () => {
         <div className="container">
           <div className="hero-text">
             <div className="villa-badge">
-              <span>{t('exclusiveVilla')}</span>
+              <span>{complex.tagline}</span>
             </div>
             <h1 className="hero-title">
-              {t('villaName')}
+              {complex.name}
             </h1>
             <div className="hero-location">
               <svg
@@ -46,37 +48,37 @@ const Hero = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-              <span>{t('location')}</span>
+              <span>{complex.location.name}</span>
             </div>
             <p className="hero-description">
-              {t('heroDescription')}
+              {complex.description.long}
             </p>
             <div className="hero-actions">
               <a href="#booking" className="btn btn-primary btn-large">
-                {t('bookYourStay')}
+                {t('booking.title')}
               </a>
               <a href="#gallery" className="btn btn-secondary btn-large">
-                {t('viewGallery')}
+                {t('house.viewGallery')}
               </a>
             </div>
           </div>
 
           <div className="hero-stats">
             <div className="stat">
-              <div className="stat-number">8</div>
-              <div className="stat-label">{t('guests')}</div>
+              <div className="stat-number">{totalComplexCapacity}</div>
+              <div className="stat-label">{t('complex.totalCapacity')}</div>
             </div>
             <div className="stat">
               <div className="stat-number">4</div>
-              <div className="stat-label">{t('bedrooms')}</div>
+              <div className="stat-label">{t('complex.totalHouses')}</div>
             </div>
             <div className="stat">
-              <div className="stat-number">2</div>
-              <div className="stat-label">{t('bathrooms')}</div>
+              <div className="stat-number">{complex.sharedAmenities.length}</div>
+              <div className="stat-label">{t('complex.sharedAmenitiesTitle')}</div>
             </div>
             <div className="stat">
               <div className="stat-number">24/7</div>
-              <div className="stat-label">{t('concierge')}</div>
+              <div className="stat-label">Support</div>
             </div>
           </div>
         </div>

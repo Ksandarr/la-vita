@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import { useLanguage } from '../contexts/useLanguage'
+import { useData } from '../contexts/useData'
 import './Header.css'
 
 const Header = ({ isScrolled }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { language, toggleLanguage, t } = useLanguage()
+  const { complex } = useData()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
+  }
+
+  const closeMenu = () => {
+    setIsMenuOpen(false)
   }
 
   return (
@@ -17,7 +23,7 @@ const Header = ({ isScrolled }) => {
           {/* Logo */}
           <div className="logo">
             <a href="/" className="logo-link">
-              La Vita e Bella
+              {complex.name}
             </a>
           </div>
 
@@ -25,19 +31,19 @@ const Header = ({ isScrolled }) => {
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
             <ul className="nav-list">
               <li className="nav-item">
-                <a href="#home" className="nav-link">{t('home')}</a>
+                <a href="#home" className="nav-link" onClick={closeMenu}>{t('nav.home')}</a>
               </li>
               <li className="nav-item">
-                <a href="#details" className="nav-link">{t('theVilla')}</a>
+                <a href="#details" className="nav-link" onClick={closeMenu}>{t('nav.houses')}</a>
               </li>
               <li className="nav-item">
-                <a href="#gallery" className="nav-link">{t('gallery')}</a>
+                <a href="#gallery" className="nav-link" onClick={closeMenu}>{t('nav.gallery')}</a>
               </li>
               <li className="nav-item">
-                <a href="#services" className="nav-link">{t('amenities')}</a>
+                <a href="#services" className="nav-link" onClick={closeMenu}>{t('nav.amenities')}</a>
               </li>
               <li className="nav-item">
-                <a href="#booking" className="nav-link">{t('bookNow')}</a>
+                <a href="#booking" className="nav-link" onClick={closeMenu}>{t('nav.bookNow')}</a>
               </li>
             </ul>
           </nav>
@@ -61,7 +67,7 @@ const Header = ({ isScrolled }) => {
 
           {/* CTA Button */}
           <div className="header-cta">
-            <a href="#booking" className="btn btn-primary">
+            <a href="#booking" className="btn btn-primary" onClick={closeMenu}>
               {t('reserveVilla')}
             </a>
           </div>
