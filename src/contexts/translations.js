@@ -12,7 +12,7 @@ export const translations = {
     exclusiveVilla: 'Exclusive Villa Rental',
     villaName: 'Villa La Vita e Bella',
     location: 'Lozenets, Bulgaria',
-    heroDescription: 'An extraordinary luxury villa perched on the dramatic cliffs of the Amalfi Coast. Experience unparalleled Mediterranean elegance with breathtaking ocean views, private beach access, and world-class amenities.',
+    heroDescription: 'An extraordinary luxury villa perched on the dramatic cliffs of the Lozenets. Experience unparalleled Mediterranean elegance with breathtaking ocean views, private beach access, and world-class amenities.',
     bookYourStay: 'Book Your Stay',
     viewGallery: 'View Gallery',
     guests: 'Guests',
@@ -22,7 +22,7 @@ export const translations = {
 
     // Villa Details
     experienceLuxury: 'Experience Luxury at Villa La Vita e Bella',
-    villaDetailsDescription: 'Perched dramatically on the Amalfi Coast cliffs, Villa La Vita e Bella offers an extraordinary escape where Mediterranean elegance meets modern luxury. This exclusive villa combines breathtaking panoramic views, sophisticated Italian design, and world-class amenities to create an unforgettable retreat for discerning guests.',
+    villaDetailsDescription: 'Perched dramatically on the Lozenets cliffs, Villa La Vita e Bella offers an extraordinary escape where Mediterranean elegance meets modern luxury. This exclusive villa combines breathtaking panoramic views, sophisticated Italian design, and world-class amenities to create an unforgettable retreat for discerning guests.',
     clifftopLocation: 'Clifftop Location',
     clifftopLocationDesc: 'Dramatic coastal views from every room',
     premiumAmenities: 'Premium Amenities',
@@ -69,13 +69,13 @@ export const translations = {
     spaWellness: 'Spa & Wellness',
     spaWellnessDesc: 'Private spa suite with massage room, sauna, and wellness amenities. Professional massage therapists available on request.',
     premiumLocation: 'Premium Location',
-    premiumLocationDesc: 'Perched on Amalfi Coast cliffs with panoramic Mediterranean views and easy access to Positano, Ravello, and coastal attractions.',
+    premiumLocationDesc: 'Perched on Lozenets cliffs with panoramic Mediterranean views and easy access to Positano, Ravello, and coastal attractions.',
     whatGuestsSay: 'What Our Guests Say',
     guestTestimonialsDescription: 'Read what our valued guests have to say about their extraordinary villa experiences.',
 
     // Booking Section
     reserveVillaTitle: 'Reserve Villa La Vita e Bella',
-    bookingDescription: 'Experience the ultimate luxury getaway on the Amalfi Coast. Submit your booking inquiry and our team will contact you within 24 hours to confirm availability and finalize your reservation.',
+    bookingDescription: 'Experience the ultimate luxury getaway on the Lozenets. Submit your booking inquiry and our team will contact you within 24 hours to confirm availability and finalize your reservation.',
     instantConfirmation: 'Instant Confirmation',
     instantConfirmationDesc: 'Quick response within 24 hours',
     flexibleDates: 'Flexible Dates',

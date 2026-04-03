@@ -18,6 +18,8 @@ export const translations = {
     complex: {
       welcomeTitle: 'Welcome to {complexName}',
       exploreHouses: 'Explore Our Houses',
+      description: 'An exclusive luxury villa complex featuring four distinct properties on the stunning Amalfi Coast.',
+      longDescription: 'Experience unparalleled Mediterranean elegance at La Vita e Bella, an exclusive villa complex perched dramatically on the Amalfi Coast cliffs. Our four carefully curated properties offer breathtaking ocean views, sophisticated Italian design, and world-class amenities, creating unforgettable retreats for discerning guests.',
       totalCapacity: 'Total Capacity',
       totalHouses: 'Luxury Houses',
       sharedAmenitiesTitle: 'Shared Amenities',
@@ -49,6 +51,16 @@ export const translations = {
       locationTitle: 'Location & Access',
       galleryTitle: 'Photo Gallery',
 
+      // Walking times
+      walkingTimes: {
+        toBeach: 'to beach',
+        toSpa: 'to spa',
+        toParking: 'to parking'
+      },
+
+      // Time units
+      minutes: 'minutes',
+
       // Gallery categories
       galleryCategories: {
         all: 'All Photos',
@@ -59,6 +71,82 @@ export const translations = {
         pool: 'Pool & Outdoor',
         terrace: 'Terraces',
         beach: 'Beach Access'
+      }
+    },
+
+    // Villa-specific data translations
+    villas: {
+      'villa-bella': {
+        shortDescription: 'Oceanfront luxury with infinity pool and panoramic views',
+        longDescription: 'Our flagship villa offers the perfect blend of elegance and comfort. Featuring floor-to-ceiling windows, a stunning infinity pool, and unobstructed ocean views, Villa Bella provides an unforgettable luxury experience.',
+        position: 'Clifftop - Premium location with best views in complex'
+      },
+      'casa-sole': {
+        shortDescription: 'Mediterranean elegance with private garden and spa access',
+        longDescription: 'Casa Sole embodies the warmth of Italian hospitality with its sun-drenched terraces, private garden oasis, and direct spa access. This intimate villa features authentic Mediterranean architecture with modern luxury touches.',
+        position: 'Garden level - Private and peaceful setting'
+      },
+      'villa-mare': {
+        shortDescription: 'Exclusive beachfront villa with private beach access',
+        longDescription: 'Villa Mare offers the ultimate seaside luxury experience with direct beach access, expansive oceanfront terraces, and panoramic sea views. This prestigious villa features premium amenities and unparalleled coastal living.',
+        position: 'Beachfront - Exclusive beach access and sea-level luxury'
+      },
+      'casa-vista': {
+        shortDescription: 'Hilltop retreat with panoramic mountain and sea views',
+        longDescription: 'Perched at the highest point of the complex, Casa Vista offers breathtaking 360-degree views of both mountains and sea. This sophisticated villa combines dramatic vistas with refined interior design and premium amenities.',
+        position: 'Hilltop - Highest elevation with panoramic views'
+      }
+    },
+
+    // Amenity translations
+    amenities: {
+      infinityPool: {
+        name: 'Infinity Pool',
+        description: 'Stunning infinity pool overlooking the Mediterranean Sea with integrated spa features and underwater lighting.'
+      },
+      gourmetKitchen: {
+        name: 'Gourmet Kitchen',
+        description: 'Professional-grade kitchen with premium appliances and wine cellar.'
+      },
+      oceanView: {
+        name: 'Panoramic Ocean Views',
+        description: 'Unobstructed 180-degree views of the Mediterranean coastline.'
+      },
+      privateTerrace: {
+        name: 'Private Terrace',
+        description: 'Expansive outdoor living space with dining area and panoramic views.'
+      },
+      airConditioning: {
+        name: 'Air Conditioning',
+        description: 'Climate-controlled comfort throughout the villa.'
+      },
+      wifiInternet: {
+        name: 'WiFi Internet',
+        description: 'High-speed wireless internet throughout the property.'
+      },
+      smartHome: {
+        name: 'Smart Home System',
+        description: 'Integrated automation for lighting, climate, and entertainment.'
+      },
+      securitySystem: {
+        name: '24/7 Security',
+        description: 'Comprehensive security system with 24-hour monitoring.'
+      },
+      parkingSpace: {
+        name: 'Private Parking',
+        description: 'Secure private parking spaces for villa guests.'
+      },
+      beachAccess: {
+        name: 'Beach Access',
+        description: 'Direct access to pristine private beach areas.'
+      },
+      spaAccess: {
+        name: 'Spa Access',
+        description: 'Exclusive access to luxury spa facilities and treatments.'
+      },
+      conciergeService: {
+        name: 'Concierge Service',
+        description: 'Dedicated concierge for personalized guest services.'
       }
     },
 
@@ -101,7 +189,23 @@ export const translations = {
       minimumStay: 'Minimum stay',
       checkInTime: 'Check-in',
       checkOutTime: 'Check-out',
-      cancellation: 'Cancellation Policy'
+      cancellation: 'Cancellation Policy',
+
+      // Booking highlights
+      highlights: {
+        instantConfirmation: {
+          title: 'Instant Confirmation',
+          description: 'Quick response within 24 hours'
+        },
+        flexibleDates: {
+          title: 'Flexible Dates',
+          description: '3-night minimum stay required'
+        },
+        bestRate: {
+          title: 'Best Rate Guarantee',
+          description: 'Competitive pricing with no hidden fees'
+        }
+      }
     },
 
     // Search and filters
@@ -121,6 +225,12 @@ export const translations = {
         price_high: 'Price: High to Low',
         capacity_high: 'Capacity: High to Low',
         name: 'Name: A to Z'
+      },
+      filters: {
+        allHouses: 'All Houses',
+        couples: 'Couples & Small Groups',
+        families: 'Families & Large Groups',
+        premium: 'Premium Properties'
       }
     },
 
@@ -228,6 +338,8 @@ export const translations = {
     complex: {
       welcomeTitle: 'Добре дошли в {complexName}',
       exploreHouses: 'Разгледайте нашите вили',
+      description: 'Ексклузивен луксозен вилен комплекс с четири отличителни имота на зашеметяващия курорт Лозенец.',
+      longDescription: 'Изживейте несравнима средиземноморска елегантност в La Vita e Bella, ексклузивен вилен комплекс разположен драматично на скалите на курорт Лозенец. Нашите четири внимателно подбрани имота предлагат спиращи дъха морски гледки, изискан дизайн и удобства от световна класа, създавайки незабравими убежища за взискателни гости.',
       totalCapacity: 'Общ капацитет',
       totalHouses: 'Луксозни вили',
       sharedAmenitiesTitle: 'Споделени удобства',
@@ -256,6 +368,16 @@ export const translations = {
       locationTitle: 'Местоположение и достъп',
       galleryTitle: 'Фото галерия',
 
+      // Walking times
+      walkingTimes: {
+        toBeach: 'до плажа',
+        toSpa: 'до спа',
+        toParking: 'до паркинга'
+      },
+
+      // Time units
+      minutes: 'минути',
+
       galleryCategories: {
         all: 'Всички снимки',
         exterior: 'Екстериор',
@@ -265,6 +387,82 @@ export const translations = {
         pool: 'Басейн и двор',
         terrace: 'Тераси',
         beach: 'Плажен достъп'
+      }
+    },
+
+    // Villa-specific data translations
+    villas: {
+      'villa-bella': {
+        shortDescription: 'Крайбрежен лукс с инфинити басейн и панорамни гледки',
+        longDescription: 'Нашата водеща вила предлага перфектното съчетание от елегантност и комфорт. С прозорци от пода до тавана, зашеметяващ инфинити басейн и безпрепятствени гледки към морето, Villa Bella осигурява незабравимо луксозно изживяване.',
+        position: 'На скала - Премиум местоположение с най-добри гледки в комплекса'
+      },
+      'casa-sole': {
+        shortDescription: 'Средиземноморска елегантност с частна градина и достъп до спа',
+        longDescription: 'Casa Sole въплъщава топлотата на италианското гостоприемство с озарените от слънце тераси, частната градинска оазис и директен достъп до спа. Тази интимна вила се отличава с автентична средиземноморска архитектура и модерни луксозни акценти.',
+        position: 'На нивото на градината - Частно и спокойно място'
+      },
+      'villa-mare': {
+        shortDescription: 'Ексклузивна крайбрежна вила с частен плажен достъп',
+        longDescription: 'Villa Mare предлага най-доброто крайморско луксозно изживяване с директен плажен достъп, обширни крайморски тераси и панорамни морски гледки. Тази престижна вила се отличава с премиум удобства и несравнимо крайбрежно живеене.',
+        position: 'На плажа - Ексклузивен плажен достъп и лукс на морското равнище'
+      },
+      'casa-vista': {
+        shortDescription: 'Хълмисто убежище с панорамни планински и морски гледки',
+        longDescription: 'Разположена на най-високата точка от комплекса, Casa Vista предлага спиращи дъха 360-градусови гледки към планините и морето. Тази изискана вила съчетава драматични панорами с изтънчен интериорен дизайн и премиум удобства.',
+        position: 'На хълма - Най-високо разположение с панорамни гледки'
+      }
+    },
+
+    // Amenity translations
+    amenities: {
+      infinityPool: {
+        name: 'Инфинити басейн',
+        description: 'Зашеметяващ инфинити басейн с гледка към Средиземно море с интегрирани спа функции и подводно осветление.'
+      },
+      gourmetKitchen: {
+        name: 'Гурме кухня',
+        description: 'Професионална кухня с премиум уреди и винена изба.'
+      },
+      oceanView: {
+        name: 'Панорамни морски гледки',
+        description: 'Безпрепятствени 180-градусови гледки към средиземноморския бряг.'
+      },
+      privateTerrace: {
+        name: 'Частна тераса',
+        description: 'Обширно външно жилищно пространство с трапезария и панорамни гледки.'
+      },
+      airConditioning: {
+        name: 'Климатик',
+        description: 'Контролиран климат за комфорт в цялата вила.'
+      },
+      wifiInternet: {
+        name: 'WiFi интернет',
+        description: 'Високоскоростен безжичен интернет в целия имот.'
+      },
+      smartHome: {
+        name: 'Умен дом система',
+        description: 'Интегрирана автоматизация за осветление, климат и развлечения.'
+      },
+      securitySystem: {
+        name: '24/7 охрана',
+        description: 'Цялостна охранителна система с 24-часово наблюдение.'
+      },
+      parkingSpace: {
+        name: 'Частен паркинг',
+        description: 'Охранявани частни паркоместа за гостите на вилата.'
+      },
+      beachAccess: {
+        name: 'Плажен достъп',
+        description: 'Директен достъп до девствени частни плажни зони.'
+      },
+      spaAccess: {
+        name: 'Спа достъп',
+        description: 'Ексклузивен достъп до луксозни спа съоръжения и процедури.'
+      },
+      conciergeService: {
+        name: 'Консиерж услуги',
+        description: 'Посветен консиерж за персонализирани гостови услуги.'
       }
     },
 
@@ -302,7 +500,23 @@ export const translations = {
       minimumStay: 'Минимален престой',
       checkInTime: 'Настаняване',
       checkOutTime: 'Освобождаване',
-      cancellation: 'Условия за анулиране'
+      cancellation: 'Условия за анулиране',
+
+      // Booking highlights
+      highlights: {
+        instantConfirmation: {
+          title: 'Незабавно потвърждение',
+          description: 'Бърз отговор в рамките на 24 часа'
+        },
+        flexibleDates: {
+          title: 'Гъвкави дати',
+          description: 'Изисква се минимум 3-нощен престой'
+        },
+        bestRate: {
+          title: 'Гаранция за най-добра цена',
+          description: 'Конкурентни цени без скрити такси'
+        }
+      }
     },
 
     // Search and filters
@@ -322,6 +536,12 @@ export const translations = {
         price_high: 'Цена: Висока към ниска',
         capacity_high: 'Капацитет: Висок към нисък',
         name: 'Име: А до Я'
+      },
+      filters: {
+        allHouses: 'Всички вили',
+        couples: 'Двойки и малки групи',
+        families: 'Семейства и големи групи',
+        premium: 'Премиум имоти'
       }
     },
 
@@ -337,7 +557,7 @@ export const translations = {
         },
         location: {
           title: 'Премиум крайбрежно местоположение',
-          description: 'Зашеметяваща обстановка на Брега Амалфи с множество гледки и достъп'
+          description: 'Зашеметяваща обстановка на Лозенец с множество гледки и достъп'
         },
         service: {
           title: 'Несравнимо обслужване',
@@ -406,7 +626,7 @@ export const translations = {
 
       copyright: '© 2024 {complexName} Луксозен вилен комплекс. Всички права запазени.',
 
-      description: 'Изживейте най-добрия луксозен вилен комплекс на Брега Амалфи. Четири уникални имота, една незабравима дестинация.'
+      description: 'Изживейте най-добрия луксозен вилен комплекс на Лозенец. Четири уникални имота, една незабравима дестинация.'
     }
   }
 }

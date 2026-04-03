@@ -51,7 +51,7 @@ const Hero = () => {
               <span>{complex.location.name}</span>
             </div>
             <p className="hero-description">
-              {complex.description.long}
+              {t('complex.longDescription')}
             </p>
             <div className="hero-actions">
               <a href="#booking" className="btn btn-primary btn-large">

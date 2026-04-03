@@ -80,8 +80,8 @@ const BookingSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4>Instant Confirmation</h4>
-                  <p>Quick response within 24 hours</p>
+                  <h4>{t('booking.highlights.instantConfirmation.title')}</h4>
+                  <p>{t('booking.highlights.instantConfirmation.description')}</p>
                 </div>
               </div>
 
@@ -95,8 +95,8 @@ const BookingSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4>Flexible Dates</h4>
-                  <p>3-night minimum stay required</p>
+                  <h4>{t('booking.highlights.flexibleDates.title')}</h4>
+                  <p>{t('booking.highlights.flexibleDates.description')}</p>
                 </div>
               </div>
 
@@ -107,8 +107,8 @@ const BookingSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4>Best Rate Guarantee</h4>
-                  <p>Competitive pricing with no hidden fees</p>
+                  <h4>{t('booking.highlights.bestRate.title')}</h4>
+                  <p>{t('booking.highlights.bestRate.description')}</p>
                 </div>
               </div>
             </div>

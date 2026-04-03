@@ -254,7 +254,11 @@
   }
 
   .language-switcher {
-    display: none;
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 1002;
+    scale: 0.9;
   }
 
   .header-cta {

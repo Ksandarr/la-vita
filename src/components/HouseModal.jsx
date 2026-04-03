@@ -52,7 +52,7 @@ const HouseModal = ({ house, isOpen, onClose }) => {
         <div className="modal-header">
           <div className="modal-title-section">
             <h2 className="modal-title">{house.name}</h2>
-            <p className="modal-subtitle">{house.shortDescription}</p>
+            <p className="modal-subtitle">{t(`villas.${house.id}.shortDescription`)}</p>
             <div className="modal-price">
               {house.pricing.currency} {house.pricing.basePrice}
               <span>/{t('house.perNight')}</span>
@@ -144,7 +144,7 @@ const HouseModal = ({ house, isOpen, onClose }) => {
             {/* Description */}
             <div className="modal-description">
               <h3>About This Villa</h3>
-              <p>{house.longDescription}</p>
+              <p>{t(`villas.${house.id}.longDescription`)}</p>
             </div>
 
             {/* Bed Configuration */}
@@ -161,8 +161,8 @@ const HouseModal = ({ house, isOpen, onClose }) => {
                   .filter(amenity => amenity.featured)
                   .map((amenity) => (
                     <div key={amenity.id} className="amenity-card">
-                      <div className="amenity-name">{amenity.name}</div>
-                      <div className="amenity-description">{amenity.description}</div>
+                      <div className="amenity-name">{t(`amenities.${amenity.id}.name`)}</div>
+                      <div className="amenity-description">{t(`amenities.${amenity.id}.description`)}</div>
                     </div>
                   ))}
               </div>
@@ -178,15 +178,15 @@ const HouseModal = ({ house, isOpen, onClose }) => {
                 <div className="walking-times-list">
                   <div className="walking-time">
                     <span className="time-icon">🏖️</span>
-                    <span>{house.location.walkingTimes.beach} to beach</span>
+                    <span>{house.location.walkingTimes.beach.replace('minutes', t('house.minutes'))} {t('house.walkingTimes.toBeach')}</span>
                   </div>
                   <div className="walking-time">
                     <span className="time-icon">🧘</span>
-                    <span>{house.location.walkingTimes.spa} to spa</span>
+                    <span>{house.location.walkingTimes.spa.replace('minutes', t('house.minutes'))} {t('house.walkingTimes.toSpa')}</span>
                   </div>
                   <div className="walking-time">
                     <span className="time-icon">🚗</span>
-                    <span>{house.location.walkingTimes.parking} to parking</span>
+                    <span>{house.location.walkingTimes.parking.replace('minutes', t('house.minutes'))} {t('house.walkingTimes.toParking')}</span>
                   </div>
                 </div>
               </div>

@@ -61,7 +61,7 @@ const HousesOverview = () => {
             {t('complex.exploreHouses')}
           </h2>
           <p className="section-subtitle">
-            {complex.description.short}
+            {t('complex.description')}
           </p>
         </div>
 
@@ -71,25 +71,25 @@ const HousesOverview = () => {
             className={`filter-tab ${activeFilter === 'all' ? 'active' : ''}`}
             onClick={() => setActiveFilter('all')}
           >
-            All Houses ({houses.length})
+            {t('search.filters.allHouses')} ({houses.length})
           </button>
           <button
             className={`filter-tab ${activeFilter === 'couples' ? 'active' : ''}`}
             onClick={() => setActiveFilter('couples')}
           >
-            Couples & Small Groups
+            {t('search.filters.couples')}
           </button>
           <button
             className={`filter-tab ${activeFilter === 'families' ? 'active' : ''}`}
             onClick={() => setActiveFilter('families')}
           >
-            Families & Large Groups
+            {t('search.filters.families')}
           </button>
           <button
             className={`filter-tab ${activeFilter === 'luxury' ? 'active' : ''}`}
             onClick={() => setActiveFilter('luxury')}
           >
-            Premium Properties
+            {t('search.filters.premium')}
           </button>
         </div>
 
@@ -118,10 +118,10 @@ const HousesOverview = () => {
               <div className="house-content">
                 <div className="house-header">
                   <h3 className="house-title">{house.name}</h3>
-                  <p className="house-location">{house.location.position}</p>
+                  <p className="house-location">{t(`villas.${house.id}.position`)}</p>
                 </div>
 
-                <p className="house-description">{house.shortDescription}</p>
+                <p className="house-description">{t(`villas.${house.id}.shortDescription`)}</p>
 
                 {/* House Stats */}
                 <div className="house-stats">
@@ -146,7 +146,7 @@ const HousesOverview = () => {
                     .slice(0, 3)
                     .map((amenity) => (
                       <span key={amenity.id} className="amenity-tag">
-                        {amenity.name}
+                        {t(`amenities.${amenity.id}.name`)}
                       </span>
                     ))
                   }
@@ -156,11 +156,11 @@ const HousesOverview = () => {
                 <div className="walking-times">
                   <div className="walking-time">
                     <span className="time-icon">🏖️</span>
-                    <span>{house.location.walkingTimes.beach} to beach</span>
+                    <span>{house.location.walkingTimes.beach.replace('minutes', t('house.minutes'))} {t('house.walkingTimes.toBeach')}</span>
                   </div>
                   <div className="walking-time">
                     <span className="time-icon">🧘</span>
-                    <span>{house.location.walkingTimes.spa} to spa</span>
+                    <span>{house.location.walkingTimes.spa.replace('minutes', t('house.minutes'))} {t('house.walkingTimes.toSpa')}</span>
                   </div>
                 </div>
 
@@ -196,7 +196,7 @@ const HousesOverview = () => {
             <div className="detail-content">
               <div className="detail-text">
                 <h3>About {houses.find(h => h.id === selectedHouseId)?.name}</h3>
-                <p>{houses.find(h => h.id === selectedHouseId)?.longDescription}</p>
+                <p>{t(`villas.${selectedHouseId}.longDescription`)}</p>
 
                 <div className="detail-amenities">
                   <h4>{t('house.featuredAmenities')}</h4>
@@ -205,8 +205,8 @@ const HousesOverview = () => {
                       .filter(amenity => amenity.featured)
                       .map((amenity) => (
                         <div key={amenity.id} className="amenity-item">
-                          <strong>{amenity.name}</strong>
-                          <span>{amenity.description}</span>
+                          <strong>{t(`amenities.${amenity.id}.name`)}</strong>
+                          <span>{t(`amenities.${amenity.id}.description`)}</span>
                         </div>
                       ))
                     }
