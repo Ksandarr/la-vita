@@ -66,10 +66,10 @@ const BookingSection = () => {
       <div className="container">
         <div className="booking-content">
           <div className="booking-info">
-            <h2 className="section-title">{t('booking.title')}</h2>
-            <p className="booking-description">
-              {t('booking.subtitle')}
-            </p>
+{/*             <h2 className="section-title">{t('booking.title')}</h2> */}
+{/*             <p className="booking-description"> */}
+{/*               {t('booking.subtitle')} */}
+{/*             </p> */}
 
             <div className="booking-highlights">
               <div className="highlight">
@@ -144,10 +144,6 @@ const BookingSection = () => {
             <form onSubmit={handleSubmit} className="booking-form">
               <div className="form-header">
                 <h3>{t('booking.title')}</h3>
-                <div className="price-display">
-                  <span className="price">{selectedVilla?.pricing?.currency || 'EUR'} {pricePerNight}</span>
-                  <span className="period">{t('house.perNight')}</span>
-                </div>
               </div>
 
               {/* Villa Selection */}
