@@ -58,7 +58,7 @@ const VillaDetails = () => {
           <div className="intro-image">
             <img
               src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-              alt="Villa La Vita exterior view"
+              alt="Villa La Vita e Bella exterior view"
             />
           </div>
         </div>

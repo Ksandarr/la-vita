@@ -1,6 +1,6 @@
-# La Vita App - GitHub Pages Deployment Guide
+# La Vita e Bella App - GitHub Pages Deployment Guide
 
-This guide explains how to deploy your La Vita React application to GitHub Pages using GitHub Actions.
+This guide explains how to deploy your La Vita e Bella React application to GitHub Pages using GitHub Actions.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ This guide explains how to deploy your La Vita React application to GitHub Pages
 git add .
 
 # Create initial commit
-git commit -m "Initial commit - La Vita luxury villa rental app"
+git commit -m "Initial commit - La Vita e Bella luxury villa rental app"
 
 # Add your GitHub repository as origin
 git remote add origin https://github.com/YOUR-USERNAME/la-vita.git
@@ -44,7 +44,7 @@ The deployment will trigger automatically when you:
 
 **To manually trigger:**
 1. Go to the **"Actions"** tab in your repository
-2. Click **"Deploy La Vita to GitHub Pages"** workflow
+2. Click **"Deploy La Vita e Bella to GitHub Pages"** workflow
 3. Click **"Run workflow"** → **"Run workflow"**
 
 ### 4. Access Your Deployed Site
@@ -130,4 +130,4 @@ npm run preview
 3. 🔄 Push to GitHub and enable Pages
 4. 🚀 Your luxury villa rental site will be live!
 
-Your La Vita app is now ready for seamless GitHub Pages deployment! 🏖️✨
+Your La Vita e Bella app is now ready for seamless GitHub Pages deployment! 🏖️✨

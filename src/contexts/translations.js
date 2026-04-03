@@ -10,7 +10,7 @@ export const translations = {
 
     // Hero Section
     exclusiveVilla: 'Exclusive Villa Rental',
-    villaName: 'Villa La Vita',
+    villaName: 'Villa La Vita e Bella e Bella',
     location: 'Amalfi Coast, Italy',
     heroDescription: 'An extraordinary luxury villa perched on the dramatic cliffs of the Amalfi Coast. Experience unparalleled Mediterranean elegance with breathtaking ocean views, private beach access, and world-class amenities.',
     bookYourStay: 'Book Your Stay',
@@ -21,8 +21,8 @@ export const translations = {
     concierge: 'Concierge',
 
     // Villa Details
-    experienceLuxury: 'Experience Luxury at Villa La Vita',
-    villaDetailsDescription: 'Perched dramatically on the Amalfi Coast cliffs, Villa La Vita offers an extraordinary escape where Mediterranean elegance meets modern luxury. This exclusive villa combines breathtaking panoramic views, sophisticated Italian design, and world-class amenities to create an unforgettable retreat for discerning guests.',
+    experienceLuxury: 'Experience Luxury at Villa La Vita e Bella e Bella',
+    villaDetailsDescription: 'Perched dramatically on the Amalfi Coast cliffs, Villa La Vita e Bella e Bella offers an extraordinary escape where Mediterranean elegance meets modern luxury. This exclusive villa combines breathtaking panoramic views, sophisticated Italian design, and world-class amenities to create an unforgettable retreat for discerning guests.',
     clifftopLocation: 'Clifftop Location',
     clifftopLocationDesc: 'Dramatic coastal views from every room',
     premiumAmenities: 'Premium Amenities',
@@ -45,7 +45,7 @@ export const translations = {
 
     // Villa Gallery
     villaGalleryTitle: 'Villa Gallery',
-    villaGalleryDescription: 'Explore every corner of Villa La Vita through our curated photo collection. From stunning architecture to luxurious interiors, discover what makes this villa extraordinary.',
+    villaGalleryDescription: 'Explore every corner of Villa La Vita e Bella e Bella through our curated photo collection. From stunning architecture to luxurious interiors, discover what makes this villa extraordinary.',
     photosAvailable: 'Photos Available',
     virtualTours: 'Virtual Tours',
     highResolution: 'High Resolution',
@@ -56,8 +56,8 @@ export const translations = {
     bathroomsCategory: 'Bathrooms',
 
     // Features/Amenities
-    villaAmenities: 'Villa La Vita Amenities',
-    amenitiesDescription: 'Every detail has been carefully curated to provide the ultimate luxury experience. From world-class amenities to personalized service, Villa La Vita offers everything you need for an unforgettable stay.',
+    villaAmenities: 'Villa La Vita e Bella e Bella Amenities',
+    amenitiesDescription: 'Every detail has been carefully curated to provide the ultimate luxury experience. From world-class amenities to personalized service, Villa La Vita e Bella e Bella offers everything you need for an unforgettable stay.',
     infinityPool: 'Infinity Pool',
     infinityPoolDesc: 'Stunning infinity pool overlooking the Mediterranean Sea with integrated spa features and underwater lighting for evening swims.',
     conciergeService: '24/7 Concierge',
@@ -74,7 +74,7 @@ export const translations = {
     guestTestimonialsDescription: 'Read what our valued guests have to say about their extraordinary villa experiences.',
 
     // Booking Section
-    reserveVillaTitle: 'Reserve Villa La Vita',
+    reserveVillaTitle: 'Reserve Villa La Vita e Bella e Bella',
     bookingDescription: 'Experience the ultimate luxury getaway on the Amalfi Coast. Submit your booking inquiry and our team will contact you within 24 hours to confirm availability and finalize your reservation.',
     instantConfirmation: 'Instant Confirmation',
     instantConfirmationDesc: 'Quick response within 24 hours',
@@ -110,7 +110,7 @@ export const translations = {
 
     // Testimonials
     testimonials: {
-      sarah: "Villa La Vita is absolutely breathtaking! The infinity pool, the ocean views, and the impeccable service made our honeymoon unforgettable.",
+      sarah: "Villa La Vita e Bella e Bella is absolutely breathtaking! The infinity pool, the ocean views, and the impeccable service made our honeymoon unforgettable.",
       michael: "The villa exceeded all expectations. From the private beach access to the gourmet kitchen, every detail was perfect. Can't wait to return!",
       emma: "Perfect for our family celebration. The villa accommodated all 8 of us comfortably and the concierge arranged amazing experiences for everyone."
     }
@@ -127,7 +127,7 @@ export const translations = {
 
     // Hero Section
     exclusiveVilla: 'Ексклузивен наем на вила',
-    villaName: 'Вила Ла Вита',
+    villaName: 'Вила Ла Вита е Бела',
     location: 'Лозенец, България',
     heroDescription: 'Изключителна луксозна вила, кацнала на драматичните скали на Брега Амалфи. Изживейте несравнима средиземноморска елегантност с въздействащи океански гледки, частен плажен достъп и удобства от световна класа.',
     bookYourStay: 'Резервирайте престоя си',
@@ -138,8 +138,8 @@ export const translations = {
     concierge: 'Разположение',
 
     // Villa Details
-    experienceLuxury: 'Изживейте лукс във Вила Ла Вита',
-    villaDetailsDescription: 'Разположена драматично на скалите на Брега Амалфи, Вила Ла Вита предлага изключително бягство, където средиземноморската елегантност среща модерния лукс. Тази ексклузивна вила съчетава захватываващи панорамни гледки, изискан италиански дизайн и удобства от световна класа за създаване на незабравимо убежище за взискателни гости.',
+    experienceLuxury: 'Изживейте лукс във Вила Ла Вита е Бела',
+    villaDetailsDescription: 'Разположена драматично на скалите на Брега Амалфи, Вила Ла Вита е Бела предлага изключително бягство, където средиземноморската елегантност среща модерния лукс. Тази ексклузивна вила съчетава захватываващи панорамни гледки, изискан италиански дизайн и удобства от световна класа за създаване на незабравимо убежище за взискателни гости.',
     clifftopLocation: 'Местоположение на скала',
     clifftopLocationDesc: 'Драматични крайбрежни гледки от всяка стая',
     premiumAmenities: 'Премиум удобства',
@@ -162,7 +162,7 @@ export const translations = {
 
     // Villa Gallery
     villaGalleryTitle: 'Галерия на вилата',
-    villaGalleryDescription: 'Разгледайте всеки ъгъл от Вила Ла Вита чрез нашата курирана фото колекция. От зашеметяваща архитектура до луксозни интериори, открийте какво прави тази вила изключителна.',
+    villaGalleryDescription: 'Разгледайте всеки ъгъл от Вила Ла Вита е Бела чрез нашата курирана фото колекция. От зашеметяваща архитектура до луксозни интериори, открийте какво прави тази вила изключителна.',
     photosAvailable: 'Налични снимки',
     virtualTours: 'Виртуални разходки',
     highResolution: 'Висока резолюция',
@@ -173,8 +173,8 @@ export const translations = {
     bathroomsCategory: 'Бани',
 
     // Features/Amenities
-    villaAmenities: 'Удобства на Вила Ла Вита',
-    amenitiesDescription: 'Всеки детайл е грижливо подбран, за да осигури най-доброто луксозно изживяване. От удобства от световна класа до персонализирано обслужване, Вила Ла Вита предлага всичко необходимо за незабравим престой.',
+    villaAmenities: 'Удобства на Вила Ла Вита е Бела',
+    amenitiesDescription: 'Всеки детайл е грижливо подбран, за да осигури най-доброто луксозно изживяване. От удобства от световна класа до персонализирано обслужване, Вила Ла Вита е Бела предлага всичко необходимо за незабравим престой.',
     infinityPool: 'Интернет',
     infinityPoolDesc: 'Бърз интернет.',
     conciergeService: '24/7 Консиерж',
@@ -191,7 +191,7 @@ export const translations = {
     guestTestimonialsDescription: 'Прочетете какво казват нашите ценени гости за техните изключителни изживявания във вилата.',
 
     // Booking Section
-    reserveVillaTitle: 'Резервирайте Вила Ла Вита',
+    reserveVillaTitle: 'Резервирайте Вила Ла Вита е Бела',
     bookingDescription: 'Изживейте най-доброто луксозно бягство на Брега Амалфи. Подайте заявката си за резервация и нашият екип ще се свърже с вас в рамките на 24 часа, за да потвърди наличността и финализира резервацията ви.',
     instantConfirmation: 'Моментално потвърждение',
     instantConfirmationDesc: 'Бърз отговор в рамките на 24 часа',
@@ -227,7 +227,7 @@ export const translations = {
 
     // Testimonials
     testimonials: {
-      sarah: "Вила Ла Вита е абсолютно спиращо дъха! Инфинити басейнът, океанските гледки и безупречното обслужване направиха нашата медена луна незабравима.",
+      sarah: "Вила Ла Вита е Бела е абсолютно спиращо дъха! Инфинити басейнът, океанските гледки и безупречното обслужване направиха нашата медена луна незабравима.",
       michael: "Вилата надмина всички очаквания. От частния плажен достъп до гурме кухнята, всеки детайл беше перфектен. Не мога да чакам да се върна!",
       emma: "Перфектна за нашето семейно празненство. Вилата побра всички ни 8 удобно и консиержът организира невероятни изживявания за всички."
     }

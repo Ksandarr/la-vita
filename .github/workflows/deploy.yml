@@ -1,4 +1,4 @@
-name: Deploy La Vita to GitHub Pages
+name: Deploy La Vita e Bella to GitHub Pages
 
 on:
   # Trigger deployment on pushes to main branch

@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="footer-column">
             <div className="footer-logo">
-              <h3>La Vita</h3>
+              <h3>La Vita e Bella</h3>
               <p className="footer-tagline">Luxury Villa Rentals</p>
             </div>
             <p className="footer-description">
@@ -168,7 +168,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="footer-bottom">
           <div className="footer-copyright">
-            <p>&copy; 2024 La Vita Luxury Villa Rentals. All rights reserved.</p>
+            <p>&copy; 2024 La Vita e Bella Luxury Villa Rentals. All rights reserved.</p>
           </div>
           <div className="footer-legal">
             <a href="#terms">Terms of Service</a>

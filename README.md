@@ -1,4 +1,4 @@
-# La Vita - Luxury Villa Rentals
+# La Vita e Bella - Luxury Villa Rentals
 
 A modern, responsive React website for luxury villa rentals featuring elegant design, smooth animations, and comprehensive villa showcase functionality.
 

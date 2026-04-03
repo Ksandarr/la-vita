@@ -17,7 +17,7 @@ const Header = ({ isScrolled }) => {
           {/* Logo */}
           <div className="logo">
             <a href="/" className="logo-link">
-              La Vita
+              La Vita e Bella
             </a>
           </div>
 
