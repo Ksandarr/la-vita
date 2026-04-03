@@ -10,7 +10,7 @@ export const translations = {
 
     // Hero Section
     exclusiveVilla: 'Exclusive Villa Rental',
-    villaName: 'Villa La Vita e Bella e Bella',
+    villaName: 'Villa La Vita e Bella',
     location: 'Amalfi Coast, Italy',
     heroDescription: 'An extraordinary luxury villa perched on the dramatic cliffs of the Amalfi Coast. Experience unparalleled Mediterranean elegance with breathtaking ocean views, private beach access, and world-class amenities.',
     bookYourStay: 'Book Your Stay',
@@ -21,8 +21,8 @@ export const translations = {
     concierge: 'Concierge',
 
     // Villa Details
-    experienceLuxury: 'Experience Luxury at Villa La Vita e Bella e Bella',
-    villaDetailsDescription: 'Perched dramatically on the Amalfi Coast cliffs, Villa La Vita e Bella e Bella offers an extraordinary escape where Mediterranean elegance meets modern luxury. This exclusive villa combines breathtaking panoramic views, sophisticated Italian design, and world-class amenities to create an unforgettable retreat for discerning guests.',
+    experienceLuxury: 'Experience Luxury at Villa La Vita e Bella',
+    villaDetailsDescription: 'Perched dramatically on the Amalfi Coast cliffs, Villa La Vita e Bella offers an extraordinary escape where Mediterranean elegance meets modern luxury. This exclusive villa combines breathtaking panoramic views, sophisticated Italian design, and world-class amenities to create an unforgettable retreat for discerning guests.',
     clifftopLocation: 'Clifftop Location',
     clifftopLocationDesc: 'Dramatic coastal views from every room',
     premiumAmenities: 'Premium Amenities',
@@ -45,7 +45,7 @@ export const translations = {
 
     // Villa Gallery
     villaGalleryTitle: 'Villa Gallery',
-    villaGalleryDescription: 'Explore every corner of Villa La Vita e Bella e Bella through our curated photo collection. From stunning architecture to luxurious interiors, discover what makes this villa extraordinary.',
+    villaGalleryDescription: 'Explore every corner of Villa La Vita e Bella through our curated photo collection. From stunning architecture to luxurious interiors, discover what makes this villa extraordinary.',
     photosAvailable: 'Photos Available',
     virtualTours: 'Virtual Tours',
     highResolution: 'High Resolution',
@@ -56,8 +56,8 @@ export const translations = {
     bathroomsCategory: 'Bathrooms',
 
     // Features/Amenities
-    villaAmenities: 'Villa La Vita e Bella e Bella Amenities',
-    amenitiesDescription: 'Every detail has been carefully curated to provide the ultimate luxury experience. From world-class amenities to personalized service, Villa La Vita e Bella e Bella offers everything you need for an unforgettable stay.',
+    villaAmenities: 'Villa La Vita e Bella Amenities',
+    amenitiesDescription: 'Every detail has been carefully curated to provide the ultimate luxury experience. From world-class amenities to personalized service, Villa La Vita e Bella offers everything you need for an unforgettable stay.',
     infinityPool: 'Infinity Pool',
     infinityPoolDesc: 'Stunning infinity pool overlooking the Mediterranean Sea with integrated spa features and underwater lighting for evening swims.',
     conciergeService: '24/7 Concierge',
@@ -74,7 +74,7 @@ export const translations = {
     guestTestimonialsDescription: 'Read what our valued guests have to say about their extraordinary villa experiences.',
 
     // Booking Section
-    reserveVillaTitle: 'Reserve Villa La Vita e Bella e Bella',
+    reserveVillaTitle: 'Reserve Villa La Vita e Bella',
     bookingDescription: 'Experience the ultimate luxury getaway on the Amalfi Coast. Submit your booking inquiry and our team will contact you within 24 hours to confirm availability and finalize your reservation.',
     instantConfirmation: 'Instant Confirmation',
     instantConfirmationDesc: 'Quick response within 24 hours',
@@ -110,7 +110,7 @@ export const translations = {
 
     // Testimonials
     testimonials: {
-      sarah: "Villa La Vita e Bella e Bella is absolutely breathtaking! The infinity pool, the ocean views, and the impeccable service made our honeymoon unforgettable.",
+      sarah: "Villa La Vita e Bella is absolutely breathtaking! The infinity pool, the ocean views, and the impeccable service made our honeymoon unforgettable.",
       michael: "The villa exceeded all expectations. From the private beach access to the gourmet kitchen, every detail was perfect. Can't wait to return!",
       emma: "Perfect for our family celebration. The villa accommodated all 8 of us comfortably and the concierge arranged amazing experiences for everyone."
     }
