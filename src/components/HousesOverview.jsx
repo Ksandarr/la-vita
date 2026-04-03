@@ -224,25 +224,6 @@ const HousesOverview = () => {
           </div>
         )}
 
-        {/* Complex Stats */}
-        <div className="complex-stats">
-          <div className="complex-stat">
-            <div className="stat-number">{houses.length}</div>
-            <div className="stat-label">Unique Properties</div>
-          </div>
-          <div className="complex-stat">
-            <div className="stat-number">{houses.reduce((sum, house) => sum + house.capacity.guests, 0)}</div>
-            <div className="stat-label">Total Guest Capacity</div>
-          </div>
-          <div className="complex-stat">
-            <div className="stat-number">{Math.min(...houses.map(h => h.pricing.basePrice))}-{Math.max(...houses.map(h => h.pricing.basePrice))}</div>
-            <div className="stat-label">Price Range (EUR)</div>
-          </div>
-          <div className="complex-stat">
-            <div className="stat-number">{complex.sharedAmenities.length}</div>
-            <div className="stat-label">Shared Amenities</div>
-          </div>
-        </div>
       </div>
 
       {/* House Details Modal */}

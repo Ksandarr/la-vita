@@ -50,27 +50,24 @@ const Header = ({ isScrolled }) => {
 
           {/* Language Switcher */}
           <div className="language-switcher">
-            <button
-              onClick={toggleLanguage}
-              className="language-btn"
-              aria-label="Switch language"
-              title={language === 'en' ? 'Switch to Bulgarian' : 'Switch to English'}
-            >
-              <span className="flag-icon">
-                {language === 'en' ? '🇧🇬' : '🇬🇧'}
-              </span>
-              <span className="language-text">
-                {language === 'en' ? 'BG' : 'EN'}
-              </span>
-            </button>
+            <div className="language-slider-container">
+              <span className={`language-option ${language === 'en' ? 'active' : ''}`}>EN</span>
+              <div
+                className="language-slider"
+                onClick={toggleLanguage}
+                aria-label="Switch language"
+                title={language === 'en' ? 'Switch to Bulgarian' : 'Switch to English'}
+              >
+                <div className={`slider-toggle ${language === 'bg' ? 'toggle-bg' : 'toggle-en'}`}>
+                  <span className="slider-flag">
+                    {language === 'en' ? '🇬🇧' : '🇧🇬'}
+                  </span>
+                </div>
+              </div>
+              <span className={`language-option ${language === 'bg' ? 'active' : ''}`}>BG</span>
+            </div>
           </div>
 
-          {/* CTA Button */}
-          <div className="header-cta">
-            <a href="#booking" className="btn btn-primary" onClick={closeMenu}>
-              {t('reserveVilla')}
-            </a>
-          </div>
 
           {/* Mobile Menu Toggle */}
           <button
