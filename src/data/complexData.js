@@ -80,13 +80,13 @@ export const complexData = {
         beds: "4 King, 2 Queen"
       },
       pricing: {
-        basePrice: 950,
+        basePrice: 200,
         currency: "EUR",
         period: "night",
         seasonalRates: {
-          lowSeason: 850,
-          midSeason: 950,
-          highSeason: 1200
+          lowSeason: 200,
+          midSeason: 200,
+          highSeason: 200
         },
         extraGuest: 50
       },
@@ -179,13 +179,13 @@ export const complexData = {
         beds: "3 King, 1 Queen"
       },
       pricing: {
-        basePrice: 750,
+        basePrice: 200,
         currency: "EUR",
         period: "night",
         seasonalRates: {
-          lowSeason: 650,
-          midSeason: 750,
-          highSeason: 950
+          lowSeason: 200,
+          midSeason: 200,
+          highSeason: 200
         },
         extraGuest: 40
       },
@@ -266,13 +266,13 @@ export const complexData = {
         beds: "5 King, 2 Queen"
       },
       pricing: {
-        basePrice: 1200,
+        basePrice: 200,
         currency: "EUR",
         period: "night",
         seasonalRates: {
-          lowSeason: 1000,
-          midSeason: 1200,
-          highSeason: 1500
+          lowSeason: 200,
+          midSeason: 200,
+          highSeason: 200
         },
         extraGuest: 60
       },
@@ -353,13 +353,13 @@ export const complexData = {
         beds: "2 King"
       },
       pricing: {
-        basePrice: 850,
+        basePrice: 200,
         currency: "EUR",
         period: "night",
         seasonalRates: {
-          lowSeason: 750,
-          midSeason: 850,
-          highSeason: 1100
+          lowSeason: 200,
+          midSeason: 200,
+          highSeason: 200
         },
         extraGuest: 45
       },

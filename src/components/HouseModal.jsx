@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useLanguage } from '../contexts/useLanguage'
 import './HouseModal.css'
 
-const HouseModal = ({ house, isOpen, onClose }) => {
+const HouseModal = ({ house, isOpen, onClose, onBookNow }) => {
   const { t } = useLanguage()
   const [selectedImageIndex, setSelectedImageIndex] = useState(0)
 
@@ -217,7 +217,14 @@ const HouseModal = ({ house, isOpen, onClose }) => {
           <button className="btn btn-secondary" onClick={onClose}>
             Close
           </button>
-          <button className="btn btn-primary">
+          <button
+            className="btn btn-primary"
+            onClick={() => {
+              if (onBookNow) {
+                onBookNow(house)
+              }
+            }}
+          >
             {t('house.bookNow')}
           </button>
         </div>

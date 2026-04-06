@@ -25,6 +25,11 @@ const HousesOverview = () => {
     // Set the selected house
     setSelectedHouseId(house.id)
 
+    // Close modal if it's open
+    if (isModalOpen) {
+      closeModal()
+    }
+
     // Scroll to booking section
     const bookingSection = document.getElementById('booking')
     if (bookingSection) {
@@ -231,6 +236,7 @@ const HousesOverview = () => {
         house={modalHouse}
         isOpen={isModalOpen}
         onClose={closeModal}
+        onBookNow={handleBookNow}
       />
     </section>
   )

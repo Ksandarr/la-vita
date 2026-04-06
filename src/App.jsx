@@ -8,6 +8,7 @@ import VillaGallery from './components/VillaGallery'
 import Features from './components/Features'
 import BookingSection from './components/BookingSection'
 import Footer from './components/Footer'
+import ScrollToTopButton from './components/ScrollToTopButton'
 import './App.css'
 
 function App() {
@@ -48,6 +49,14 @@ function App() {
     return () => document.removeEventListener('click', handleAnchorClick)
   }, [])
 
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <LanguageProvider>
       <DataProvider>
@@ -61,6 +70,7 @@ function App() {
             <BookingSection />
           </main>
           <Footer />
+          <ScrollToTopButton isVisible={isScrolled} onClick={scrollToTop} />
         </div>
       </DataProvider>
     </LanguageProvider>
